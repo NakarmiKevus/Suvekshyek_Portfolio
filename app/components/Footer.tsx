@@ -28,19 +28,19 @@ function Footer() {
                   <a href="/#home">Home</a>
                 </li>
                 <li className="text-base text-slate-300 font-medium transition-all duration-200 hover:text-blue-400 hover:translate-x-4">
-                  <a href="#about">About</a>
+                  <a href="/#about">About</a>
                 </li>
                 <li className="text-base text-slate-300 font-medium transition-all duration-200 hover:text-blue-400 hover:translate-x-4">
-                  <a href="#skills">Skills</a>
+                  <a href="/#skills">Skills</a>
                 </li>
                 <li className="text-base text-slate-300 font-medium transition-all duration-200 hover:text-blue-400 hover:translate-x-4">
-                  <a href="#project">Project</a>
+                  <a href="/#project">Project</a>
                 </li>
                 <li className="text-base text-slate-300 font-medium transition-all duration-200 hover:text-blue-400 hover:translate-x-4">
-                  <a href="#experience">Experience</a>
+                  <a href="/#experience">Experience</a>
                 </li>
                 <li className="text-base text-slate-300 font-medium transition-all duration-200 hover:text-blue-400 hover:translate-x-4">
-                  <a href="#contact">Contact</a>
+                  <a href="/#contact">Contact</a>
                 </li>
               </ul>
             </div>

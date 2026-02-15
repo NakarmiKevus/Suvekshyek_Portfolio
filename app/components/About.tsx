@@ -9,7 +9,7 @@ function AboutScroll() {
     },
     {
       topic: "UI/UX Driven Design",
-      desc: "With experince in Figma, I design interfaces that prioritize cllarity, consistency and smooth user interactions",
+      desc: "With experince in Figma, I design interfaces that prioritize clarity, consistency and smooth user interactions",
     },
     {
       topic: "Attention to Detail",

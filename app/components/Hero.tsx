@@ -38,13 +38,13 @@ function Hero() {
 
   const experiences = [
     {
-      value: 1,
-      label: "YEARS EXPERIENCE",
+      value: 4,
+      label: "PROJECTS",
       suffix: "+",
     },
     {
-      value: 4,
-      label: "PROJECTS",
+      value: 6,
+      label: "TECH STACKS",
       suffix: "+",
     },
     {
@@ -70,13 +70,13 @@ function Hero() {
                 Hi, I'm
               </h1>
 
-              <h3 className="text-3xl sm:text-4xl font-bold text-gray-400 text-center lg:text-justify">
+              <h3 className="text-3xl sm:text-4xl font-bold text-gray-400 text-center lg:text-justify lg:text-5xl xl:text-6xl">
                 <Typewriter
                   options={{
                     strings: [
                       "Suvekshyek Nakarmi",
                       "Frontend Developer",
-                      "Full-Stack Developer",
+                      // "Full-Stack Developer",
                     ],
                     autoStart: true,
                     loop: true,
@@ -132,7 +132,7 @@ function Hero() {
               <p className="text-4xl text-slate-100 lg:text-5xl font-bold">
                 <CountUp
                   end={experience.value}
-                  duration={2}
+                  duration={3.5}
                   suffix={experience.suffix}
                   enableScrollSpy
                   scrollSpyOnce
