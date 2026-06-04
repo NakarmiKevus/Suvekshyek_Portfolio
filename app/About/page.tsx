@@ -6,13 +6,13 @@ function About() {
     {
       img: "../Images/thunder.png",
       alt: "Thunder",
-      value: "10%",
+      value: "25%",
       label: "Performance Increase",
     },
     {
       img: "../Images/globe.png",
       alt: "Globe",
-      value: "4+",
+      value: "6+",
       label: "Production Apps",
     },
   ];

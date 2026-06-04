@@ -14,7 +14,7 @@ function Hero() {
       img: "../Images/download.png",
       label: "Resume",
       alt: "resume",
-      link: "/resume.pdf",
+      link: "../Images/SUVEKSHYEK NAKARMI.pdf",
     },
     {
       img: "../Images/github.png",
@@ -38,7 +38,7 @@ function Hero() {
 
   const experiences = [
     {
-      value: 4,
+      value: 6,
       label: "PROJECTS",
       suffix: "+",
     },
@@ -87,9 +87,10 @@ function Hero() {
 
             <div className="flex flex-col">
               <p className="text-base sm:text-lg text-gray-400 leading-normal text-center lg:text-left mb-12">
-                I'm a Frontend and Full-Stack Developer who enjoys crafting
-                clean UI and reliable backend logic. Always learning and
-                improving through real-world projects.
+                Frontend Developer with strong JavaScript (ES6+) foundations
+                including Async/Await, Promises and Fetch API. Currently
+                learning React.js and Next.js to build modern web applications.
+                I enjoy learning by building real things.
               </p>
 
               <div className="grid grid-cols-2 gap-10 cursor-pointer md:flex justify-center lg:justify-start">

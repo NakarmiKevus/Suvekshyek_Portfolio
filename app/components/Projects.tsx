@@ -8,6 +8,66 @@ function ProjectScroll() {
 
   const projects = [
     {
+      img: "../Images/weather.png",
+      alt: "Weather App",
+      heading: "Weather App",
+      webTool: "HTML, Tailwind CSS, JavaScript",
+      descriptions: [
+        "Built a real-time weather application using OpenWeather API",
+        "Displays current weather conditions based on user search",
+        "Shows temperature, humidity, wind speed, and weather status",
+        "Implemented clean and responsive UI using Tailwind CSS",
+        "Added search functionality for different cities worldwide",
+        "Handled API data fetching and error states efficiently",
+        "Optimized UI for mobile, tablet, and desktop devices",
+        "Dynamic UI updates based on live weather data",
+        "Lightweight vanilla JavaScript project focused on performance",
+        "Minimal and user-friendly design for quick weather access",
+      ],
+      netlify: "https://climatixx.netlify.app/",
+      github: "https://github.com/NakarmiKevus/Weather-App",
+    },
+    {
+      img: "../Images/repopeek.png",
+      alt: "GitHub User Finder",
+      heading: "RepoPeek - GitHub User Finder",
+      webTool: "HTML, Tailwind CSS, JavaScript",
+      descriptions: [
+        "Built a GitHub user search and profile viewer tool",
+        "Fetches real-time user data from GitHub API",
+        "Displays repositories, followers, and profile statistics",
+        "Simple and fast search-based interface for developers",
+        "Handles loading states and API error responses smoothly",
+        "Responsive UI designed with Tailwind CSS",
+        "Shows user profile insights in a clean dashboard format",
+        "Optimized for quick developer lookup experience",
+        "Frontend-only project using vanilla JavaScript",
+        "Focus on minimal design and fast interaction flow",
+      ],
+      netlify: "https://repopeeek.netlify.app/",
+      github: "https://github.com/NakarmiKevus/Repopeek",
+    },
+    {
+      img: "../Images/devdojo.png",
+      alt: "Dev Dojo Quiz App",
+      heading: "Dev Dojo - Quiz Game",
+      webTool: "React",
+      descriptions: [
+        "Built a quiz game using React with static questions and answers",
+        "Displays multiple-choice questions with interactive UI",
+        "Calculates and shows final score at the end of quiz",
+        "Uses React state for quiz flow and logic handling",
+        "Simple navigation between questions and results screen",
+        "Clean and minimal UI for better user engagement",
+        "Fully frontend-based project with no backend",
+        "Focus on React fundamentals and component structure",
+        "Fast and responsive quiz experience",
+        "Designed for learning and practice purposes",
+      ],
+      netlify: "https://devdojoqize.netlify.app/",
+      github: "https://github.com/NakarmiKevus/Dev-Dojo-Quiz-",
+    },
+    {
       img: "../Images/mush.png",
       alt: "Mush",
       heading: "React ViteProject",
@@ -84,12 +144,12 @@ function ProjectScroll() {
               Turning ideas into responsive and interactive web experiences.
             </p>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 cursor-pointer items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 cursor-pointer items-stretch">
             {projects.map((project, index) => (
               <ImageReveal key={index} delay={index * 0.15}>
                 <div
                   onClick={() => router.push("/Projects")}
-                  className="group flex flex-col gap-2 bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-lg py-4 px-4 hover:border-blue-400/50 hover:shadow-lg hover:shadow-blue-400/10 transition-all duration-300 hover:-translate-y-2"
+                  className=" h-full  group flex flex-col gap-2 bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-lg py-4 px-4 hover:border-blue-400/50 hover:shadow-lg hover:shadow-blue-400/10 transition-all duration-300 hover:-translate-y-2"
                 >
                   <div className="w-full h-48 overflow-hidden rounded-lg">
                     <img
@@ -99,7 +159,7 @@ function ProjectScroll() {
                     />
                   </div>
 
-                  <div className="flex flex-col gap-4 transition-transform duration-300">
+                  <div className="flex flex-col gap-4 flex-1 justify-between transition-transform duration-300">
                     <h3 className="mt-6 text-xl text-gray-400 sm:text-2xl font-medium">
                       {project.heading}
                     </h3>
